@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Ticket website</title>
+
+    <style>
+        body {
+            background-image: url('back');
+            background-color: lightblue; 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png">
+     <form method="post" action="nextpage.html"></form>
+    <h1>Air Ticket Booking</h1>
+    <form>
+         <label>First Name:</label>
+         <input type="text"><br><br>
+
+         <label>Last Name:</label>
+         <input type="text"><br><br>
+
+         <label>Email:</label>
+         <input type="text"><br><br>
+
+         <label>Passcode:</label>
+         <input type="text"><br><br>
+
+         <label>Contact:</label>
+         <input type="text"><br><br>
+         <br>
+
+         <h3>Gender</h3>
+         <input type="radio" name="Gender" value="male">
+         <label>Male</label>
+         <input type="radio" name="Gender" value="Female">
+         <label>Female</label>
+         <br>
+
+         <h3>Choose Meal</h3>
+         <input type="checkbox" name="meal" value="rice">
+         <label>Rice</label>
+         <input type="checkbox" name="meal" value="beef">
+         <label>Beef</label>
+         <input type="checkbox" name="meal" value="chicken">
+         <label>Chicken</label>
+         <input type="checkbox" name="meal" value="pepsi">
+         <label>Pepsi</label>
+         <input type="checkbox" name="meal" value="sprite">
+         <label>Sprite</label>
+         <br>
+
+         <h3>Boarding From</h3>
+         <select class="box1">
+             <option>Choose</option>
+             <option value="1">Dhaka</option>
+             <option value="2">Chittagong</option>
+             <option value="3">Sylhet</option>
+             <option value="4">Rajshahi</option>
+             <option value="5">Khulna</option>
+             <option value="6">Barishal</option>
+             <option value="7">Rangpur</option>
+         </select>
+
+         <h3>Destination</h3>
+         <select class="box1">
+             <option>Choose</option>
+             <option value="1">Dhaka</option>
+             <option value="2">Chittagong</option>
+             <option value="3">Sylhet</option>
+             <option value="4">Rajshahi</option>
+             <option value="5">Khulna</option>
+             <option value="6">Barishal</option>
+             <option value="7">Rangpur</option>
+         </select>
+         <br><br>
+        <div style="text-align: right; margin-top: 20px;">
+            <button type="submit" style="font-size: 18px; padding: 15px 25px; background-color: rgb(225, 0, 255); color: rgb(255, 255, 255); border: none; border-radius: 5px; cursor: pointer;">
+                Submit
+         </button>
+
+    </form>
+</body>
+</html>
